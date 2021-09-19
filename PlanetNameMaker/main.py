@@ -24,7 +24,7 @@ def main():
     [
         "Alpha", "Beta", "Gamma", "Delta", "Epsilon", "Zeta", "Eta", "Theta", 
         "Iota", "Kappa", "Lambda", "Mu", "Nu", "Xi", "Omicron", "Pi", "Rho",
-		"Sigma", "Tau", "Upsilon", "Phi", "Chi", "Psi", "Omega", "1", "2", 
+        "Sigma", "Tau", "Upsilon", "Phi", "Chi", "Psi", "Omega", "1", "2", 
         "3", "4", "5", "6", "7", "8", "9"
     ]
     # list of secondary names for planet generation.
