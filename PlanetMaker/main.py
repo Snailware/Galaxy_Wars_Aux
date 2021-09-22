@@ -81,8 +81,8 @@ def main():
         obj_writer.writerow(["name", "description", "population"])
         # write headings.
 
-        for i in range(0, 100):
-        # iter 100 times.
+        for i in range(0, 200):
+        # iter x times.
 
             constructed_name = f"{choice(potential_primary_names)}-{choice(potential_secondary_names)}"
             description = choice(potential_descriptions)
