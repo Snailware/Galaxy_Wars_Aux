@@ -58,7 +58,7 @@ def main():
         "the ruined world of a once mighty civilization.",
         "a quaint space station known for delicious food.",
         "a peaceful world inhabited by industrious people.",
-        "a space ship graveyard, inhabited by outlaws.",
+        "a space ship graveyard inhabited by outlaws.",
         "a weapons research station shielded from prying eyes.",
         "a cloning facility that raises armies for the highest bidders.",
         "a storm ravaged world where it always rains.",
@@ -68,7 +68,7 @@ def main():
         "the lush homeworld to a proud warrior race.",
         "a toxic planet whos people have long since fled.",
         "a technologically advanced world where energy is currency.",
-        "a travelling food ship, it is famous for its Ramen bowls."
+        "a travelling food ship it is famous for its Ramen bowls."
     ]
     # list of descriptions for planet generation.
 
