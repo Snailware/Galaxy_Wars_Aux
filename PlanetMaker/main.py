@@ -1,11 +1,11 @@
-# make a csv file with alot of planets for Galaxy Wars.
+# make a csv file with alot of objects for Galaxy Wars.
 # NOTE cannot use "," in any data fields as that is delimiter.
 
 from csv import writer
 from random import choice, randint
 
 def main():
-    """use this to make lots of planets in csv file quick."""
+    """use this to make lots of objects in csv file quick."""
 
     potential_primary_names = \
     [
@@ -31,54 +31,54 @@ def main():
 
     potential_descriptions = \
     [
-        "a bustling mining planet rich with natural resources.",
-        "a bleak & sparsely inhabited world.",
-        "a gas giant surrounded by strange vessels.",
-        "a small space station situated near a black hole.",
-        "a small brutal planet where only the strong survive.",
-        "a lush forest planet brimming with wildlife.",
-        "a densely populated planet where everything is scarce.",
-        "a dry planet where life exists without moisture.",
-        "a blue ocean planet. strange vessels glide over its surface.",
-        "a frozen tundra planet. blizzards rage continuously.",
-        "a peaceful planet with a highly religious population.",
-        "a dark & noxious planet. deadly spores blanket its surface.",
-        "an ancient planet inhabited by a powerful humanoid species.",
-        "a massive trading outpost. many species do business here.",
-        "a volcanic planet. much of its surface is covered by magma.",
-        "an abandoned mining colony thats now home to space pirates.",
-        "a tropical planet where many species seem to vacation.",
-        "a ruined wartorn planet. civil war has raged for generations.",
-        "a mystical planet where beings with strange powers rule.",
-        "an aquatic planet. research stations lie below its waves.",
-        "a prison space station home to the worst of the worst.",
-        "a mysterious planet whos inhabitants have long died.",
-        "a beautiful tropical planet brimming with life.",
-        "a derelict alien vessel drifting through space.",
-        "the ruined world of a once mighty civilization.",
-        "a quaint space station known for delicious food.",
-        "a peaceful world inhabited by industrious people.",
-        "a space ship graveyard inhabited by outlaws.",
-        "a weapons research station shielded from prying eyes.",
-        "a cloning facility that raises armies for the highest bidders.",
-        "a storm ravaged world where it always rains.",
-        "a merchant colony bustling with commerce.",
-        "a world that fell to catastophic climate change.",
-        "the seat of power to a terrible empire.",
-        "the lush homeworld to a proud warrior race.",
-        "a toxic planet whos people have long since fled.",
-        "a technologically advanced world where energy is currency.",
-        "a travelling food ship it is famous for its Ramen bowls."
+        "A bustling mining planet rich with natural resources.",
+        "A bleak & sparsely inhabited world.",
+        "A gas giant surrounded by strange vessels.",
+        "A small space station situated near a black hole.",
+        "A small brutal planet where only the strong survive.",
+        "A lush forest planet brimming with wildlife.",
+        "A densely populated planet where everything is scarce.",
+        "A dry planet where life exists without moisture.",
+        "A blue ocean planet. strange vessels glide over its surface.",
+        "A frozen tundra planet. blizzards rage continuously.",
+        "A peaceful planet with a highly religious population.",
+        "A dark & noxious planet. deadly spores blanket its surface.",
+        "An ancient planet inhabited by a powerful humanoid species.",
+        "A massive trading outpost. many species do business here.",
+        "A volcanic planet. much of its surface is covered by magma.",
+        "An abandoned mining colony thats now home to space pirates.",
+        "A tropical planet where many species seem to vacation.",
+        "A ruined wartorn planet. civil war has raged for generations.",
+        "A mystical planet where beings with strange powers rule.",
+        "An aquatic planet. research stations lie below its waves.",
+        "A prison space station home to the worst of the worst.",
+        "A mysterious planet whos inhabitants have long died.",
+        "A beautiful tropical planet brimming with life.",
+        "A derelict alien vessel drifting through space.",
+        "The ruined world of a once mighty civilization.",
+        "A quaint space station known for delicious food.",
+        "A peaceful world inhabited by industrious people.",
+        "A space ship graveyard inhabited by outlaws.",
+        "A weapons research station shielded from prying eyes.",
+        "A cloning facility that raises armies for the highest bidders.",
+        "A storm ravaged world where it always rains.",
+        "A merchant colony bustling with commerce.",
+        "A world that fell to catastophic climate change.",
+        "The seat of power to a terrible empire.",
+        "The lush homeworld to a proud warrior race.",
+        "A toxic planet whos people have long since fled.",
+        "A technologically advanced world where energy is currency.",
+        "A travelling food ship that is famous for its Ramen bowls."
     ]
     # list of descriptions for planet generation.
 
-    with open("PlanetNameMaker\Planets.csv", "w") as planet_file:
+    with open("PlanetMaker\Planets.csv", "w") as obj_file:
     # open file in write mode.
 
-        planet_writer = writer(planet_file, lineterminator = '\n')
+        obj_writer = writer(obj_file, lineterminator = '\n')
         # create csv writer obj.
 
-        planet_writer.writerow(["name", "description", "population"])
+        obj_writer.writerow(["name", "description", "population"])
         # write headings.
 
         for i in range(0, 100):
@@ -87,9 +87,9 @@ def main():
             constructed_name = f"{choice(potential_primary_names)}-{choice(potential_secondary_names)}"
             description = choice(potential_descriptions)
             population = randint(3, 9999999)
-            # randomly create data for planet.
+            # randomly create data for obj.
 
-            planet_writer.writerow([constructed_name, description, population])
+            obj_writer.writerow([constructed_name, description, population])
             # write line to file.
 
     exit()

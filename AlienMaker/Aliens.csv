@@ -1,0 +1,101 @@
+name                      ,description                                                        ,health ,armor ,money
+Mog Ornitier              ,A humanoid officer. Cold logical and highly intelligent.           ,12     ,1     ,342
+Garnet Wallace            ,A skilled thief who will do anything for the right price.          ,11     ,1     ,423
+Kirby the Abysswalker     ,A leader to his people. His wisdom is known across the galaxy.     ,11     ,1     ,247
+Cloud Coral               ,An ace pilot with a foul mouth and a nicotine addiction.           ,13     ,2     ,224
+Leon Kupo                 ,A young mercenary bearing a large scar across his face.            ,13     ,2     ,232
+Ro Heartilly              ,A humble man whose quest for sunlight drives him ever onward.      ,15     ,1     ,147
+Sephiroth The Rock        ,A formidable dragoon knight wielding a ceremonial lance.           ,14     ,1     ,369
+Gandalf Dincht            ,A small fury creature with a bag of mail over its shoulder.        ,15     ,3     ,353
+SHODAN XIII               ,A humanoid officer. Cold logical and highly intelligent.           ,11     ,3     ,242
+Havel Coral               ,A large humanoid driven mad and bent on destruction.               ,13     ,2     ,239
+Starscream Greatwolf      ,A noble knight who would give his life for his princess.           ,11     ,1     ,450
+Cait Lionheart            ,A large humanoid robot. A steadfast protecter of its kind.         ,11     ,2     ,361
+Ro Decepticon             ,A leader to his people. His wisdom is known across the galaxy.     ,12     ,1     ,125
+Mewtwo Decepticon         ,A small pudgy thing. it insults you mercilessly.                   ,11     ,3     ,298
+Mewtwo the Abysswalker    ,A humanoid fighter from another dimension.                         ,15     ,3     ,306
+Thanos Smith              ,A young mercenary bearing a large scar across his face.            ,11     ,1     ,261
+Tuvok Tribal              ,A humanoid freedom fighter from an occupied world.                 ,10     ,3     ,417
+Miles Chere               ,A really cool guy.                                                 ,12     ,3     ,166
+Kuja Strife               ,The last of her kind. Hunted by many.                              ,10     ,1     ,382
+Dusk Decepticon           ,A giant black dragon. It has devoured countless souls.             ,15     ,3     ,469
+Tuvok the Dragon          ,An omnipotent AI. It will stop at nothing to impose its will.      ,10     ,3     ,368
+SHODAN Decepticon         ,A young girl and the last of her once powerful race.               ,15     ,2     ,150
+Ornstein One Winged Angel ,The last of her kind. Hunted by many.                              ,15     ,2     ,125
+Ro McCloud                ,A cyborg more machine than person. She is ruthless and efficient.  ,10     ,3     ,311
+Siegward Prower           ,A formidable dragoon knight wielding a ceremonial lance.           ,14     ,1     ,462
+Jenova Horror             ,A powerful warrior bent on achieving Godhood.                      ,13     ,2     ,237
+Sephiroth of Astora       ,The last of her kind. Hunted by many.                              ,10     ,3     ,474
+Manus Decepticon          ,A humanoid clad in heavy stone plates. His defenses are legendary. ,11     ,1     ,180
+Megatron Father of Abyss  ,An impulsive humanoid fighter known for his quick temper.          ,13     ,3     ,433
+Megatron Carol            ,A proud father and fierce protector of the planet.                 ,10     ,1     ,352
+Snarf Ornitier            ,A formidable dragoon knight wielding a ceremonial lance.           ,14     ,1     ,317
+Seven Kupo                ,An ace pilot with a foul mouth and a nicotine addiction.           ,15     ,1     ,153
+Amygdala Highwind         ,A cyborg more machine than person. She is ruthless and efficient.  ,15     ,3     ,180
+Kuja Machine              ,A humanoid clad in heavy stone plates. His defenses are legendary. ,15     ,3     ,315
+Gandalf Valentine         ,A massive wolf-like creature. It will die before it surrenders.    ,10     ,1     ,349
+Spock Father of Abyss     ,A shape shifter capable of fantastic feats when transformed.       ,15     ,1     ,223
+Roger Thundercat          ,A humble man whose quest for sunlight drives him ever onward.      ,15     ,1     ,377
+Knuckles Lionheart        ,The Father of Sunlight. he has sacrificed everything for power.    ,13     ,1     ,450
+Thanos Nerys              ,A completely normal gambling robot.                                ,15     ,1     ,102
+Fox Decepticon            ,A twisted monster and the father of an unstoppable abyss.          ,14     ,3     ,154
+Solaire Coral             ,A formidable dragoon knight wielding a ceremonial lance.           ,11     ,2     ,402
+Thanos Sith               ,An ancient horror. Revered by many as a God.                       ,10     ,2     ,352
+Celes The Rock            ,A flufy yellow creature that produces lightning when angry.        ,14     ,2     ,402
+Artorias Nerys            ,A flufy yellow creature that produces lightning when angry.        ,10     ,3     ,234
+Tuvok Alexandros          ,A large humanoid robot. A steadfast protecter of its kind.         ,13     ,2     ,424
+Solaire Heartilly         ,The Father of Sunlight. he has sacrificed everything for power.    ,14     ,3     ,182
+Spock the Hedgehog        ,A large humanoid robot. A steadfast protecter of its kind.         ,11     ,2     ,263
+Artorias Synthesis        ,A small fury creature with a bag of mail over its shoulder.        ,13     ,1     ,206
+Barret Alexandros         ,A small fury creature with a bag of mail over its shoulder.        ,13     ,1     ,448
+Kalameet Carol            ,A shape shifter capable of fantastic feats when transformed.       ,13     ,1     ,315
+Jenova Chere              ,A plump humanoid who values honor (and beer) above all else.       ,10     ,2     ,298
+Sonic The Rock            ,A small furry creaure. It frequently repeats its own name.         ,13     ,2     ,207
+Solaire the White         ,A pretty young woman accompanied by her dog.                       ,13     ,1     ,229
+Barret Lionheart          ,An impulsive humanoid fighter known for his quick temper.          ,15     ,1     ,418
+Kalameet Carol            ,A giant black dragon. It has devoured countless souls.             ,10     ,3     ,156
+Sephiroth of Astora       ,An impulsive humanoid fighter known for his quick temper.          ,15     ,1     ,100
+Cid Synthesis             ,A small fury creature with a bag of mail over its shoulder.        ,11     ,3     ,206
+Rinoa Alexandros          ,A flufy yellow creature that produces lightning when angry.        ,11     ,3     ,323
+Amygdala Carol            ,An omnipotent AI. It will stop at nothing to impose its will.      ,12     ,1     ,362
+Kuja Horror               ,An ancient horror. Revered by many as a God.                       ,13     ,2     ,304
+Beatrix Horror            ,A princess pulled away from her own space and time.                ,13     ,1     ,249
+Spock God of Sunlight     ,The humanoid captain of his lords knights. A fierce dragon slayer. ,10     ,3     ,294
+Kalameet Decepticon       ,The Father of Sunlight. he has sacrificed everything for power.    ,14     ,1     ,253
+Terra Kupo                ,A humanoid freedom fighter from an occupied world.                 ,14     ,1     ,388
+Eiko Father of Abyss      ,A powerful humanoid ancient whos power knows no bounds.            ,12     ,3     ,165
+Megatron Kupo             ,A humanoid officer. Cold logical and highly intelligent.           ,14     ,1     ,241
+Sephiroth Steiner         ,A humanoid terrorist leader who rejects all authority but her own. ,15     ,3     ,101
+Thanos Cosmos             ,A princess pulled away from her own space and time.                ,14     ,2     ,112
+Amarant the Dragonslayer  ,An ace pilot with a foul mouth and a nicotine addiction.           ,13     ,2     ,338
+Garnet the Hedgehog       ,A small fury creature with a bag of mail over its shoulder.        ,13     ,1     ,226
+Cait Father of Abyss      ,A princess pulled away from her own space and time.                ,14     ,2     ,426
+Vivi Prower               ,A mechanical zealot bent on domination at all costs.               ,15     ,1     ,115
+Kira of Oolacile          ,A small fury creature with a bag of mail over its shoulder.        ,13     ,1     ,190
+Tifa McCloud              ,A flufy yellow creature that produces lightning when angry.        ,15     ,1     ,225
+Solaire Decepticon        ,A terrible evil. Ancients called it The Calamity From the Skies.   ,15     ,1     ,392
+Beatrix the Dragon        ,A mechanical zealot bent on domination at all costs.               ,12     ,2     ,199
+Seven the Dragonslayer    ,A humanoid freedom fighter from an occupied world.                 ,10     ,3     ,465
+Cid the Dragon            ,A humanoid terrorist leader who rejects all authority but her own. ,11     ,2     ,345
+Ro Father of Abyss        ,An impulsive humanoid fighter known for his quick temper.          ,13     ,1     ,257
+Celes God of Sunlight     ,A humanoid clad in heavy stone plates. His defenses are legendary. ,14     ,2     ,449
+Seven XIII                ,A young girl and the last of her once powerful race.               ,13     ,2     ,103
+Optimus Branford          ,An impulsive humanoid fighter known for his quick temper.          ,11     ,1     ,375
+Ornstein One Winged Angel ,A test subject who can now transform into monstrous beasts.        ,11     ,2     ,289
+Starscream Decepticon     ,An ancient horror. Revered by many as a God.                       ,13     ,1     ,429
+Beatrix the White         ,A giant black dragon. It has devoured countless souls.             ,10     ,2     ,118
+Artorias Branford         ,The personal knight to her king. Her strength has no equal.        ,10     ,3     ,191
+Mewtwo Synthesis          ,A really cool guy.                                                 ,10     ,1     ,429
+Sonic the Dragonslayer    ,A princess pulled away from her own space and time.                ,14     ,1     ,111
+Megatron Heartilly        ,The personal knight to her king. Her strength has no equal.        ,11     ,3     ,415
+Sonic of Oolacile         ,A formidable dragoon knight wielding a ceremonial lance.           ,14     ,3     ,381
+Mog the Hedgehog          ,A leader to his people. His wisdom is known across the galaxy.     ,12     ,2     ,220
+Amarant Crescent          ,A strange dark creature. it wields powerful magic.                 ,10     ,2     ,140
+Cloud God of Sunlight     ,The last of her kind. Hunted by many.                              ,14     ,3     ,158
+Yuffie Decepticon         ,A young mercenary bearing a large scar across his face.            ,11     ,2     ,124
+Moogle Wallace            ,A skilled thief who will do anything for the right price.          ,10     ,2     ,104
+Manus Ketchum             ,A plump humanoid who values honor (and beer) above all else.       ,14     ,1     ,430
+Jenova Kupo               ,A completely normal gambling robot.                                ,11     ,1     ,105
+Artorias Greatwolf        ,An ancient horror. Revered by many as a God.                       ,12     ,3     ,494
+Squall Coral              ,A giant black dragon. It has devoured countless souls.             ,13     ,3     ,256
+Leon Lockhart             ,An ace pilot with a foul mouth and a nicotine addiction.           ,11     ,3     ,421
