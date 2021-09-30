@@ -71,7 +71,7 @@ def main():
     ]
     # list of descriptions for planet generation.
 
-    with open("PlanetScript.sql", "w") as planetFile:
+    with open("PlanetSQL\PlanetScript.sql", "w") as planetFile:
         
         planetFile.write(f"INSERT INTO {TABLENAME}\n")
         planetFile.write("(name, description, population)\n")
