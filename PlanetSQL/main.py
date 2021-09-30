@@ -82,8 +82,8 @@ def main():
         description = choice(DESCRIPTIONS)
         population = randint(3, 9999999)
         planetFile.write(f"""\n("{constructed_name}","{description}",{population})""")
-        # randomly create & write data. added 1 iter before loop to avoid syntax error 
-        # caused by adding comma after VALUES.
+        # randomly create & write data. added 1 iter before loop to avoid 
+        # syntax error caused by adding comma after VALUES.
 
         for i in range(200):
 
