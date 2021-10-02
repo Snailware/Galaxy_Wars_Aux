@@ -1,14 +1,15 @@
-DROP TABLE IF EXISTS planets;
 -- drop old table if it exists.
+DROP TABLE IF EXISTS planets;
 
+-- create new table.
 CREATE TABLE planets (
     id INT PRIMARY KEY,
     name NVARCHAR(50) NOT NULL,
     description NTEXT NOT NULL,
     population INT NOT NULL
 );
--- create new table.
 
+-- populate table with data.
 INSERT INTO planets
 (id, name, description, population)
 VALUES
