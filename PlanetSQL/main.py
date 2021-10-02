@@ -4,8 +4,6 @@ from random import choice, randint
 
 def main():
 
-    TABLENAME = "planets"
-
     PRIMARYNAMES = \
     [
         "Glaxon", "Bleezor", "Romulus", "Gallifrey", "Cybertron", "Krypton", 
@@ -73,26 +71,27 @@ def main():
 
     with open("PlanetSQL\PlanetScript.sql", "w") as planetFile:
         
-        planetFile.write(f"INSERT INTO {TABLENAME}\n")
-        planetFile.write("(name, description, population)\n")
+        planetFile.write(f"INSERT INTO planets\n")
+        planetFile.write("(id, name, description, population)\n")
         planetFile.write("VALUES")
         # write header for sql file.
 
         constructed_name = f"{choice(PRIMARYNAMES)}-{choice(SECONDARYNAMES)}"
         description = choice(DESCRIPTIONS)
         population = randint(3, 9999999)
-        planetFile.write(f"""\n("{constructed_name}","{description}",{population})""")
+        planetFile.write(f"""\n(0,'{constructed_name}','{description}',{population})""")
         # randomly create & write data. added 1 iter before loop to avoid 
         # syntax error caused by adding comma after VALUES.
 
-        for i in range(200):
-
+        for index in range(1, 201):
+        # iter 200 times. 
+        
             constructed_name = f"{choice(PRIMARYNAMES)}-{choice(SECONDARYNAMES)}"
             description = choice(DESCRIPTIONS)
             population = randint(3, 9999999)
             # randomly create data for obj.
 
-            planetFile.write(f""",\n("{constructed_name}","{description}",{population})""")
+            planetFile.write(f""",\n({index},'{constructed_name}','{description}',{population})""")
         # write rows to file.
         
         planetFile.write(";")
