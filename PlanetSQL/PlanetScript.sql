@@ -5,7 +5,7 @@ DROP TABLE IF EXISTS planets;
 CREATE TABLE planets (
     id INT PRIMARY KEY,
     name NVARCHAR(50) NOT NULL,
-    description NTEXT NOT NULL,
+    description NVARCHAR(MAX) NOT NULL,
     population INT NOT NULL
 );
 

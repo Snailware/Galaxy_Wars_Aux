@@ -5,7 +5,7 @@ DROP TABLE IF EXISTS aliens;
 CREATE TABLE aliens (
     id INT PRIMARY KEY,
     name NVARCHAR(50) NOT NULL,
-    description NTEXT NOT NULL,
+    description NVARCHAR(MAX) NOT NULL,
     health INT NOT NULL,
     armor INT NOT NULL,
     money INT NOT NULL
